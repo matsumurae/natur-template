@@ -6,14 +6,22 @@ Natur is parallax template, combined with pastel colours and bootstrap grids. Be
 Natur is under GPL V2.<br/>
 You can use for commercial and non-commercial use. Remember to credit the author and share with the same license.
 
+## Thanks
+* To Unsplash for the awesome images :heart:
+* To Bootstrap for the incredible framework :v:
+* To Font Awesome for the amazing font icons :thumbsup:
+
 ### What contains:
-* Bower config and dependencies
-* jQuery
-* Bootstrap
-* Font Awesome
-* Images and patterns for sections
+* Bower with config and dependencies:
+ * jQuery
+ * Bootstrap
+ * Font Awesome
+ * Font Awesome Animation
+ * Github Fork Ribbon CSS
+* Images for sections
+* Pattern for home section
 * Custom css
-* Custom js scripts
+* Custom js
 
 ### Contribute
 If you want to contribute with this project with new features, create a new issue like this:
