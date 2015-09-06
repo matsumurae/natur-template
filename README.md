@@ -30,6 +30,12 @@ If you want to send me any bug you find, create a new issue like this:
 * Option to change the color of the page
 
 ### Version
+**v1.0.3**
+ * Added font-awesome-animation for animate font awesome (it's awesome, but animated is better)
+ * Changed hover in navbar
+ * Added new section. Now have 6 sections + home + contact + about us
+ * Scroll down from home by clicking in arrow icon
+
 **v1.0.2r**
  * Changed github ribbon colour and size
 
@@ -38,10 +44,10 @@ If you want to send me any bug you find, create a new issue like this:
  * Fixed navbar transparency when mobile
 
 **v1.0.1**
-  * added bower
-  * navbar background is black now
-  * hover is now according to black navbar
-  * active have border bottom in red
+  * Added bower
+  * Navbar background is black now
+  * Hover is now according to black navbar
+  * Active have border bottom in red
 
 **v1.0**
-  * first version
+  * First version
