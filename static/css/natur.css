@@ -43,6 +43,11 @@ q:before, q:after {
   content: '';
   content: none;
 }
+/* Remove dotted link borders */
+a, a:active, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+}
 
 /* ============================================================================
   GITHUB FORK RIBBON
@@ -51,7 +56,11 @@ q:before, q:after {
   background-image: none;
   box-shadow: none;
   padding: 5px 0px;
+  background-color: #E74C3C;
 }
+  .github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon:hover {
+    background-color: #b83c30;
+  }
   .github-fork-ribbon a, .github-fork-ribbon a:hover {
     border-color: transparent;
     text-shadow: none;
@@ -329,12 +338,10 @@ header {
   TEXT LEVEL SEMANTICS
 ============================================================================ */
 a {
-  text-decoration: none;
   color          : white;
 }
   a:hover, a:focus {
     color          : #D2D7D3;
-    text-decoration: none;
   }
 h2 {
   font-size     : 5em;

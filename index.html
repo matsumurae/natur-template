@@ -53,7 +53,7 @@
 				<div class="section-down">
 					<p>Go down</p>
 					<p>
-						<a class="scroll-down" href="#section"><span class="fa fa-chevron-down faa-bounce animated"></span></a>
+						<a class="scroll-down" href="#section"><span class="fa fa-chevron-down faa-bounce animated" data-toggle="tooltip" data-placement="right" title="Click here!"></span></a>
 					</p>
 				</div>
 			</div>
@@ -224,7 +224,7 @@
 *************************************************************************** -->
 	<div class="github-fork-ribbon-wrapper right-bottom">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/matsumurae/natur-template">Star me on GitHub</a>
+      <a href="https://github.com/matsumurae/natur-template">Star me on GitHub!</a>
     </div>
   </div>
 <!-- **************************************************************************
@@ -236,6 +236,10 @@
 	<script>
 	// Activate scrollspy
 	$('body').scrollspy({ target: '#navbar-fixed' })
+	// Tooltip for arrow in home
+	$(function () {
+  	$('[data-toggle="tooltip"]').tooltip()
+	})
 	</script>
 	<script src="static/js/smoothScroll.js"></script>
 	<script src="static/js/navbarScroll.js"></script>
