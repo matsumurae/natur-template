@@ -28,7 +28,6 @@ If you want to send me any bug you find, create a new issue like this:
 
 ### ToDo
 * Option to change the color of the page
-* Add github ribbon
 
 ### Version
 **v1.0.2r**
