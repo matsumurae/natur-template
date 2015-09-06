@@ -7,7 +7,6 @@
 	<meta name="author" content="Matsumurae">
 	<link rel="author" href="http://matsumurae.github.io/"/>
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
-	<link rel="stylesheet" href="static/css/bootstrap.css">
 	<link rel="stylesheet" href="static/css/natur.css">
 	<title>NATUR</title>
 </head>
@@ -199,52 +198,13 @@
 <!-- **************************************************************************
 	 							SCRIPTS
 *************************************************************************** -->
-	<script src="static/js/jquery-2.1.4.min.js"></script>
-	<script src="static/js/bootstrap.js"></script>
+	<script src="static/vendor/jquery/dist/jquery.min.js"></script>
+	<script src="static/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script>
 	// Activate scrollspy
 	$('body').scrollspy({ target: '#navbar-fixed' })
 	</script>
-	<script>
-	// Smooth scroll
-	$("#navbar-fixed ul li a[href^='#']").on('click', function(e) {
-
-	   // prevent default anchor click behavior
-	   e.preventDefault();
-
-	   // store hash
-	   var hash = this.hash;
-
-	   // animate
-	   $('html, body').animate({
-	       scrollTop: $(hash).offset().top
-	     }, 1000, function(){
-
-	       // when done, add hash to url
-	       // (default click behaviour)
-	       window.location.hash = hash;
-	     });
-
-	});
-	</script>
-	<script>
-	// transparent background navbar in home section
-	$(document).ready(function(){
-	 var scroll_start = 0;
-	 var startchange = $('#section');
-	 var offset = startchange.offset();
-		if (startchange.length){
-		 $(document).scroll(function() {
-				scroll_start = $(this).scrollTop();
-				if(scroll_start > offset.top) {
-						$(".navbar-default").css('background-color', '#F8F8F8');
-				 } else {
-						$('.navbar-default').css('background-color', 'transparent');
-						$(".navbar-default").css('border-color', 'transparent');
-				 }
-		 });
-		}
-	});
-	</script>
+	<script src="static/js/smoothScroll.js"></script>
+	<script src="static/js/navbarScroll.js"></script>
 </body>
 </html>

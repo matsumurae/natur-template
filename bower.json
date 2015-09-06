@@ -1,0 +1,12 @@
+{
+  "name": "Natur",
+  "description": "Natur is a simple page parallax template",
+  "homepage": "https://github.com/matsumurae/natur-template",
+  "author": "Amanda Copete",
+  "dependencies": {
+      "bootstrap": "3.3.5",
+      "jquery": "2.1.4",
+      "fontawesome": "4.4.0",
+      "mmenu": "5.4.0"
+  }
+}
