@@ -7,6 +7,7 @@ Natur is under GPL V2.<br/>
 You can use for commercial and non-commercial use. Remember to credit the author and share with the same license.
 
 ### What contains:
+* Bower config and dependencies
 * jQuery
 * Bootstrap
 * Font Awesome
@@ -26,10 +27,9 @@ If you want to send me any bug you find, create a new issue like this:
 * Attach an image (if it's necessary).
 
 ### ToDo
-* Separate js scripts into files
-* Add bower
 * Option to change the color of the page
 * Add github ribbon
 
 ### Version
+* **1.0.1** - added bower. navbar changed: background, hover and active anchor
 * **1.0** - first version
