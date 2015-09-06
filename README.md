@@ -31,6 +31,10 @@ If you want to send me any bug you find, create a new issue like this:
 * Add github ribbon
 
 ### Version
+**v1.0.2**
+ * Added github fork ribbon
+ * Fixed navbar transparency when mobile
+
 **v1.0.1**
   * added bower
   * navbar background is black now
