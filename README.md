@@ -30,6 +30,11 @@ If you want to send me any bug you find, create a new issue like this:
 * Option to change the color of the page
 
 ### Version
+**v1.0.3r**
+ * Remove dotted link borders
+ * Hover on github ribbon
+ * Tooltip with "click here!" in arrow
+
 **v1.0.3**
  * Added font-awesome-animation for animate font awesome (it's awesome, but animated is better)
  * Changed hover in navbar
