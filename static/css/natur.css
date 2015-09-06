@@ -45,6 +45,20 @@ q:before, q:after {
 }
 
 /* ============================================================================
+  GITHUB FORK RIBBON
+============================================================================ */
+.github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon {
+  background-image: none;
+  box-shadow: none;
+  padding: 5px 0px;
+}
+  .github-fork-ribbon a, .github-fork-ribbon a:hover {
+    border-color: transparent;
+    text-shadow: none;
+    border-style: none;
+  }
+
+/* ============================================================================
   BODY
 ============================================================================ */
 body {
