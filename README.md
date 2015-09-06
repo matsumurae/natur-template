@@ -31,5 +31,11 @@ If you want to send me any bug you find, create a new issue like this:
 * Add github ribbon
 
 ### Version
-* **1.0.1** - added bower. navbar changed: background, hover and active anchor
-* **1.0** - first version
+**v1.0.1**
+  * added bower
+  * navbar background is black now
+  * hover is now according to black navbar
+  * active have border bottom in red
+
+**v1.0**
+  * first version
