@@ -9,10 +9,16 @@ $(document).ready(function(){
       if(scroll_start > offset.top) {
           $(".navbar-default").css('background-color', 'black');
           $(".navbar-default").css('border-color', 'black');
+          $(".in").css('background-color', 'black');
        } else {
           $('.navbar-default').css('background-color', 'transparent');
           $(".navbar-default").css('border-color', 'transparent');
+          $(".in").css('background-color', 'transparent');
        }
    });
   }
+  // change background color of toggled navbar when click on button
+  $('.navbar-toggle').click( function() {
+    $(".in").css('background-color', 'black');
+  } );
 });
