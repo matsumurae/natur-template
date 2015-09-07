@@ -1,14 +1,14 @@
 # Natur template
 Natur is a single page template for fit your business website. Is made with Bootstrap, using it's guidelines.<br/>
-Natur is parallax template, combined with pastel colours and bootstrap grids. Beautiful and care design, made for business or for your portfolio. You can edit, customize and change what you want. Make with this your own Natur template.
+Natur is parallax template (made only with CSS), combined with pastel colours and bootstrap grids. Beautiful and care design, made for business or for your portfolio. You can edit, customize and change what you want. Make with this your own Natur template.
 
 ### Features
 * Super customizable
-* 100% free under GPL License
+* 100% free under GPL License - **Only need to credit the author**
 * Include all dependencies
 * Bootstrap grid guideline
 * Easy to add/remove sections
-* HTML5 + CSS + JS (JQUERY)
+* HTML5 + CSS + JS (JQUERY) + Framework (Bootstrap) = **Amazing combination**
 * Fully responsive
 * Fit in most of websites (like business website or portfolio)
 
