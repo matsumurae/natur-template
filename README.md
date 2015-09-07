@@ -2,16 +2,17 @@
 Natur is a single page template for fit your business website. Is made with Bootstrap, using it's guidelines.<br/>
 Natur is parallax template, combined with pastel colours and bootstrap grids. Beautiful and care design, made for business or for your portfolio. You can edit, customize and change what you want. Make with this your own Natur template.
 
-## License
-Natur is under GPL V2.<br/>
-You can use for commercial and non-commercial use. Remember to credit the author and share with the same license.
+### Features
+* Super customizable
+* 100% free under GPL License
+* Include all dependencies
+* Bootstrap grid guideline
+* Easy to add/remove sections
+* HTML5 + CSS + JS (JQUERY)
+* Fully responsive
+* Fit in most of websites (like business website or portfolio)
 
-## Thanks
-* To Unsplash for the awesome images :heart:
-* To Bootstrap for the incredible framework :v:
-* To Font Awesome for the amazing font icons :thumbsup:
-
-### What contains:
+### What contains
 * Bower with config and dependencies:
  * jQuery
  * Bootstrap
@@ -23,21 +24,13 @@ You can use for commercial and non-commercial use. Remember to credit the author
 * Custom css
 * Custom js
 
-### Contribute
-If you want to contribute with this project with new features, create a new issue like this:
-* Title your issue `Feature: name of your feature`.
-* Include a description of your feature, describing the feature. With a few lines it's enough!
-* Attach an image or any link to a reference (if it's necessary).
-
-If you want to send me any bug you find, create a new issue like this:
-* Title your issue `Bug: name of the bug`.
-* Include a description of the bug (where you find it it's a good description). With a few lines it's enough!
-* Attach an image (if it's necessary).
 
 ### ToDo
 * Option to change the color of the page
 * Fixed home section and hide when scroll down
 * Navbar anchor hover
+* Multilanguage option
+* Fix contact form in big screens
 
 ### Version
 **v1.0.3r**
@@ -66,3 +59,23 @@ If you want to send me any bug you find, create a new issue like this:
 
 **v1.0**
   * First version
+
+### Contribute
+If you want to contribute with this project with new features, create a new issue like this:
+* Title your issue `Feature: name of your feature`.
+* Include a description of your feature, describing the feature. With a few lines it's enough!
+* Attach an image or any link to a reference (if it's necessary).
+
+If you want to send me any bug you find, create a new issue like this:
+* Title your issue `Bug: name of the bug`.
+* Include a description of the bug (where you find it it's a good description). With a few lines it's enough!
+* Attach an image (if it's necessary).
+
+### Thanks
+* To Unsplash for the awesome images :heart:
+* To Bootstrap for the incredible framework :v:
+* To Font Awesome for the amazing font icons :thumbsup:
+
+### License
+Natur is under GPL V2.<br/>
+You can use for commercial and non-commercial use. Remember to credit the author and share with the same license.
