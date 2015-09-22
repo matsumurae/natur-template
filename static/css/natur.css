@@ -69,6 +69,62 @@ a, a:active, a:focus, a:hover {
   }
 
 /* ============================================================================
+  TOOLTIP FIXED
+============================================================================ */
+.tooltip {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  cursor: default;
+}
+.tooltip-inner{
+    max-width:200px;
+    padding:5px 10px;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    background-color: white;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px
+}
+  .tooltip.top .tooltip-arrow {
+    border-top-color: white;
+    border-width: 15px;
+    top: 32px;
+    margin-left: -15px;
+  }
+  .tooltip.bottom {
+    margin-top: 20px;
+  }
+    .tooltip.bottom .tooltip-arrow {
+      border-bottom-color: white;
+      border-width: 15px;
+      top: -24px;
+      margin-left: -15px;
+    }
+  .tooltip.left {
+    margin-left: -20px;
+  }
+    .tooltip.left .tooltip-arrow {
+      border-left-color: white;
+      border-width: 15px;
+      top: 6px !important;
+      left: 113px;
+    }
+  .tooltip.right {
+    margin-left: 15px;
+  }
+  .tooltip.right .tooltip-arrow {
+    border-right-color: white;
+    border-width: 15px;
+    top: 6px !important;
+    left: -23px;
+  }
+
+/* ============================================================================
   BODY
 ============================================================================ */
 body {
@@ -264,7 +320,7 @@ header {
 ============================================================================ */
 .md-contact {
   background-color: #fce17e;
-  height          : 50em;
+  height          : 52em;
 }
 
 /* ============================================================================
@@ -445,13 +501,23 @@ p {
 }
 @media (min-width: 601px) and (max-width: 800px) {
   .md-contact {
-    height: 43em;
+    height: 45em;
   }
     .md-contact .contact-form {
       margin: 2%;
       width : 95%;
     }
 }
+@media (min-width: 801px) and (max-width: 1200px) {
+  .md-contact {
+    height: 54em;
+  }
+    .md-contact .contact-form {
+      margin: 2% 5%;
+      width : 90%;
+    }
+}
+
 @media (min-width: 1620px) {
   .md-contact {
     height: 68em;

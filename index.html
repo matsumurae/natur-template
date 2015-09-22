@@ -47,9 +47,8 @@
 			</div>
 			<div class="row">
 				<div class="section-down">
-					<p>Go down</p>
 					<p>
-						<a class="scroll-down" href="#section"><span class="fa fa-chevron-down faa-bounce animated" data-toggle="tooltip" data-placement="right" title="Click here!"></span></a>
+						<a class="scroll-down" href="#section"><span class="fa fa-chevron-down faa-bounce animated" data-toggle="tooltip" data-placement="top" title="Click here!"></span></a>
 					</p>
 				</div>
 			</div>
@@ -236,7 +235,7 @@
 	$('body').scrollspy({ target: '.shifter-navigation' })
 	// Tooltip for arrow in home
 	$(document).ready(function() {
-  	$('[data-toggle="tooltip"]').tooltip();
+  	$('p a span').tooltip({trigger: 'manual'}).tooltip('show');
 		$.shifter({
 			maxWidth: "768px"
 		});
