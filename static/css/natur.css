@@ -142,9 +142,12 @@ header {
   height: 600px;
 }
   header .section-down {}
-    header .section-down p {
-      font-size: small;
+    header .section-down .more-info {
       text-transform: uppercase;
+      background-color: rgba(0,0,0,0.4);
+      color: #fff;
+      padding: 1.5rem;
+      margin-bottom: 100px;
     }
     header .section-down .fa {
       font-size: 50px;
@@ -254,10 +257,47 @@ header {
 }
 
 /* ============================================================================
+  ROUNDED BADGE
+============================================================================ */
+.round-button {
+	width: 220px;
+  margin-top: 4%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 8%;
+}
+  .last {
+    margin-right: 0%;
+  }
+  .rounded-badge {
+  	width: 100%;
+  	height:0;
+  	padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #E74C3C;
+  }
+    .rounded-badge .badge-icon {
+      line-height:1em;
+      color: white;
+      font-size:50px;
+      margin-left: 85px;
+      margin-top: 18%;
+    }
+    .rounded-badge .badge-text {
+      margin-left: 45px;
+      margin-top: 6%;
+      width: 130px;
+    	line-height:1em;
+    	color: white;
+      font-size:20px;
+    }
+
+/* ============================================================================
   SECTION GENERAL
 ============================================================================ */
 .section-container {
-  padding: 140px 0;
+  padding: 120px 0px 70px 0px;
 }
 .md-contact h2,
 .md-about h2 {
@@ -269,6 +309,7 @@ header {
 ============================================================================ */
 .md-first-section {
   background-color: #f08c78;
+  padding-bottom: 120px;
 }
 
 /* ============================================================================
@@ -450,6 +491,7 @@ h2 {
   text-transform: uppercase;
   text-shadow   : 4px 5px 3px rgba(0,0,0,.3);
   font-weight   : 300;
+  margin-bottom : 20px;
 }
 h3 {
   font-size     : 2em;
