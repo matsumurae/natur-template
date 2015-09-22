@@ -21,6 +21,7 @@ Natur is parallax template (made only with CSS), combined with pastel colours an
  * Font Awesome
  * Font Awesome Animation
  * Github Fork Ribbon CSS
+ * Shifter (downloaded from github because Bower don't find)
 * Images for sections
 * Pattern for home section
 * Custom css
@@ -30,11 +31,15 @@ Natur is parallax template (made only with CSS), combined with pastel colours an
 ### ToDo
 * Option to change the color of the page
 * Fixed home section and hide when scroll down
-* Navbar anchor hover
 * Multilanguage option
-* Fix contact form in big screens
+* Fixed navbar for mobile version
 
 ### Changelog
+**v1.1**
+ * Fixed contact form in big screens: now displays fine (tested until 1920px)
+ * Navbar mobile: new mobile navbar using Shifter. Looks more minimal, fresh and beautiful
+ * Added Shifter js
+
 **v1.0.3r**
  * Remove dotted link borders
  * Hover on github ribbon
