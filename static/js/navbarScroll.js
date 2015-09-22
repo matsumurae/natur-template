@@ -17,8 +17,4 @@ $(document).ready(function(){
        }
    });
   }
-  // change background color of toggled navbar when click on button
-  $('.navbar-toggle').click( function() {
-    $(".in").css('background-color', 'black');
-  } );
 });

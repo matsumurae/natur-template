@@ -6,6 +6,7 @@
 /* ============================================================================
   IMPORT CSS
 ============================================================================ */
+@import url("../vendor/Shifter/jquery.fs.shifter.css");
 @import url("../vendor/bootstrap/dist/css/bootstrap.min.css");
 @import url("../vendor/fontawesome/css/font-awesome.min.css");
 @import url("../vendor/font-awesome-animation/dist/font-awesome-animation.min.css");
@@ -102,24 +103,17 @@ header {
   .navbar-default {
     background-color: transparent;
     border-color    : transparent;
-    height          : 56px;
+    height          : 50px;
     opacity         : .7;
+  }
+  .navbar-right {
+    margin-top: 4px;
+    margin-right: 0px;
   }
   .navbar-default .navbar-collapse {
     border-color: transparent;
     padding-top : 7px;
   }
-  /* Open navbar button */
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-  }
-    .navbar-default .navbar-toggle:focus,
-    .navbar-default .navbar-toggle:hover {
-      background-color: transparent;
-    }
-    .navbar-default .navbar-toggle .icon-bar {
-      background-color: white;
-    }
   /* navbar logo */
   .navbar .navbar-brand {
     text-transform: uppercase;
@@ -129,9 +123,6 @@ header {
     .navbar .navbar-brand:hover {
       color         : white;
     }
-  .navbar-collapse.in {
-    background-color: transparent;
-  }
   /* navbar anchors */
   .navbar .nav li {
     font-size     : 1.1em;
@@ -151,6 +142,60 @@ header {
       color: white;
       background-color: transparent;
     }
+
+/* ============================================================================
+  NAVBAR SHIFTER
+============================================================================ */
+.shifter-enabled .shifter-navigation {
+  background-color: #2D2F33 none repeat scroll 0% 0%;
+}
+  .shifter-navigation {
+    padding: 20px;
+  }
+  .shifter-navigation p {
+    color: #6F7D8C;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #6F7D8C;
+    padding-bottom: 20px;
+  }
+  .shifter-navigation a {
+    color: #6F7D8C;
+    display: block;
+    border-bottom: 1px solid #6F7D8C;
+    padding: 25px 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+    .shifter-navigation a > span.icon {
+        float: right;
+        margin: 0.1em 1.7em -0.1em 0px;
+        opacity: 0;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out 0s;
+    }
+      .shifter-navigation a:hover > span.icon {
+        float: right;
+        margin: 0.1em 0em -0.1em 0;
+        opacity: 1;
+      }
+  .shifter-enabled .shifter-handle:hover::after {
+    background-color: white;
+    box-shadow: 0px 5px 0px white, 0px -5px 0px white;
+  }
+/* Arrow */
+.icon::before {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  content: "\f105";
+  font-size: 20px;
+}
 
 /* ============================================================================
   SECTION GENERAL
@@ -386,6 +431,18 @@ p {
       width : 95%;
     }
 }
+/* H2 TITLE */
+@media (max-width: 615px) {
+  h2 {
+    font-size: 3em;
+  }
+}
+/* navbar bootstrap hidden for use Shifter */
+@media (max-width: 768px) {
+  .navbar-right {
+    visibility: hidden;
+  }
+}
 @media (min-width: 601px) and (max-width: 800px) {
   .md-contact {
     height: 43em;
@@ -395,10 +452,12 @@ p {
       width : 95%;
     }
 }
-
-/* H2 TITLE */
-@media (max-width: 615px) {
-  h2 {
-    font-size: 3em;
+@media (min-width: 1620px) {
+  .md-contact {
+    height: 68em;
   }
+    .md-contact .contact-form {
+      margin: 2% 15%;
+      width : 70%;
+    }
 }
