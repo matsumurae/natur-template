@@ -35,6 +35,9 @@ Natur is parallax template (made only with CSS), combined with pastel colours an
 * Fixed navbar for mobile version
 
 ### Changelog
+**v1.1.2**
+ * Start designing the template for previews: You can see how your portfolio would be. home and first section have now info about the template.
+
 **v1.1.1**
  * Fixed some minor errors with contact form display in medium resolutions
  * Changed tooltip: now is fixed in header
