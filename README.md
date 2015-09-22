@@ -35,6 +35,11 @@ Natur is parallax template (made only with CSS), combined with pastel colours an
 * Fixed navbar for mobile version
 
 ### Changelog
+**v1.1.1**
+ * Fixed some minor errors with contact form display in medium resolutions
+ * Changed tooltip: now is fixed in header
+ * Update tooltip design: minimal design in all placements (top, bottom, left, right)
+
 **v1.1**
  * Fixed contact form in big screens: now displays fine (tested until 1920px)
  * Navbar mobile: new mobile navbar using Shifter. Looks more minimal, fresh and beautiful
