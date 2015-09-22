@@ -34,7 +34,7 @@ Natur is parallax template (made only with CSS), combined with pastel colours an
 * Multilanguage option
 * Fix contact form in big screens
 
-### Version
+### Changelog
 **v1.0.3r**
  * Remove dotted link borders
  * Hover on github ribbon
